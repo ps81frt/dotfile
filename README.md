@@ -1,2 +1,1 @@
-# nanorc
-My .nanorc
+My personnal dotfiles
