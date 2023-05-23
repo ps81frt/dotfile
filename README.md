@@ -1,0 +1,2 @@
+# nanorc
+My .nanorc
