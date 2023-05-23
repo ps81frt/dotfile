@@ -1,0 +1,9 @@
+  set linenumbers
+ 
+ set tabsize 4
+ 
+ set titlecolor yellow,red
+ 
+ set autoindent
+ 
+ #set mouse
