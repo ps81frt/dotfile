@@ -8,7 +8,7 @@ set wrap
 set encoding=utf-8
 
 "Show line numbers
-"set number
+set number
 
 set numberwidth=2
 
