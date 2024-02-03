@@ -1,1 +1,1 @@
-!(![alt text](terminator-1.png)
+![alt text](terminator-1.png)
