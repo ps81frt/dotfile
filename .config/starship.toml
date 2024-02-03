@@ -1,0 +1,22 @@
+ # ~/.config/starship.toml                                                   
+ 
+ add_newline = false
+ command_timeout = 1000
+ format = """$time$os$username$hostname$kubernetes$directory$git_branch$git_s
+ 
+ # Drop ugly default prompt characters
+ [character]
+ success_symbol = '[➜](bold green)'
+ error_symbol = '[✗](bold red)'
+ 
+ # ---
+ 
+ [time]
+ time_format = "%T"
+ format = "🕙$time($style) "
+ style = "bright-white"
+ disabled = false
+ 
+ 
+ [os]
+ ormat = '[$symbol](bold white) '

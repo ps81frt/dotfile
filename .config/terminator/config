@@ -1,0 +1,20 @@
+[global_config]
+[keybindings]
+  zoom_in = <Primary>KP_Add
+  zoom_out = <Primary>KP_Subtract
+[profiles]
+  [[default]]
+    background_darkness = 0.9
+    background_type = image
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+    use_theme_colors = True
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+[plugins]
