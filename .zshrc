@@ -75,5 +75,5 @@ ex ()
 
 
 # Chargement de Starship
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/sbin
