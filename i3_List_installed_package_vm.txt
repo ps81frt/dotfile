@@ -1274,3 +1274,4 @@ zlib1g-dev:amd64
 zsh
 zsh-common
 zstd
+polybar
