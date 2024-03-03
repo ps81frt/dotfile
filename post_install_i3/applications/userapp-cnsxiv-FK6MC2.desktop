@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=cnsxiv
+Exec=/usr/local/bin/cnsxiv %f
+Categories=Other;
+NoDisplay=true
+MimeType=image/png
+Terminal=false

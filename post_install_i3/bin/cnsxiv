@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Get the directory of the clicked image
+dir_path="$(dirname "$1")"
+
+# Collect all the images in the directory in a sorted array
+mapfile -t files < <(find "$dir_path" -maxdepth 1 -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.gif' \) | sort)
+
+# Find the index of the clicked image in the array
+index=-1
+for i in "${!files[@]}"; do
+    if [[ "${files[$i]}" == "$1" ]]; then
+        index=$i
+        break
+    fi
+done
+    
+# Open nsxiv starting at the clicked image's index
+nsxiv -n $((index + 1)) "${files[@]}"

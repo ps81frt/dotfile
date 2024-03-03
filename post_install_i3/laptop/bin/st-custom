@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$ST_EXEC" = "internal" ]; then
+    st -f "Hack Nerd Font Mono:pixelsize=27:antialias=true:autohint=true" "$@"
+else
+    st "$@"
+fi
+
