@@ -137,6 +137,6 @@ echo "eval "'"$(starship init bash)"'"" >> ~/.bashrc
 # update locale
 # might be not necessary if you want to use the same locale for everything
 sudo update-locale LC_TIME=fr_FR.utf8 LC_PAPER=fr_FR.utf8 LC_NAME=fr_FR.utf8 LC_ADDRESS=fr_FR.utf8 LC_TELEPHONE=fr_FR.utf8 LC_MEASUREMENT=fr_FR.utf8
-
+setxkbmap fr
 echo "disable power management on lid switch"
 echo " uncomment #HandleLidSwitch=ignore in /etc/systemd/logind.conf"
