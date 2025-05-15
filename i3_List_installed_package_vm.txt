@@ -1275,3 +1275,4 @@ zsh
 zsh-common
 zstd
 polybar
+rsyslog
