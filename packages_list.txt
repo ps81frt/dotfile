@@ -1356,6 +1356,7 @@ zlib1g:amd64
 zlib1g-dev:amd64
 zsh
 zsh-autosuggestions
+rsyslog
 zsh-common
 zsh-syntax-highlighting
 zstd
