@@ -8,7 +8,7 @@ setopt EXTENDED_HISTORY
  alias ll='ls -l'
  alias la='ls -A'
 #alias l='ls -CF'
- alias ipa='ip -br -c a && ip r | grep default --color'                      
+ alias ipa='ip -br -c a && ip r | grep default --color &&  ip -4 addr show ens33 && ip -6 addr show ens33 && resolvectl'                      
  alias cls='clear'
  alias update='sudo apt update'
  alias fetch='neofetch'
